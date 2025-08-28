@@ -17,3 +17,14 @@ const wrapper = document.getElementById("wrapper");
 
 // Insert the new div into the wrapper
 wrapper.appendChild(newDiv);
+
+3. What is Event Bubbling and how does it work?
+   Answer: Event bubbling is a processs in where if someone trigged his child element then first it will execute child element afterwards parent element will fire. It will continue on step by step.
+
+4.What is Event Delegation in JavaScript? Why is it useful?
+Answer: It is such a process where we can handle the event from the parent element.
+It is useful because no need to set extra listener in child element
+
+5. What is the difference between preventDefault() and stopPropagation() methods?
+
+Answer: PreventDefault is used to terminate default behavior of html element whereas stopPropagation terminates event bubbling.
